@@ -1,6 +1,6 @@
 import React from "react";
 import profilePic from "../assets/profilePic.png";
-import { HERO_CONTENT } from "../../constants";
+import { HERO_CONTENT } from "../constants";
 
 function IntroSection() {
   return (
@@ -23,9 +23,9 @@ function IntroSection() {
             <h2 className="pb-2 text-4xl tracking-tighter lg:text-8xl">
               Mohit Khedkar
             </h2>
-            <span className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent">
+            <span className="bg-gradient-to-r from-stone-300 to-stone-500 bg-clip-text text-3xl tracking-tight text-transparent">
               {" "}
-              Full Stack developer
+              Frontend Developer
             </span>
             <p className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter text-center">
               {HERO_CONTENT}

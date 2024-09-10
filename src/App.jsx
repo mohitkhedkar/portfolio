@@ -1,6 +1,10 @@
 import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Intro from "./components/IntroSection";
+import Technologies from "./components/Technologies";
+import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
 
 function App() {
   return (
@@ -13,6 +17,10 @@ function App() {
       <div className="container mx-auto px-8 text-white ">
         <Navbar />
         <Intro />
+        <Technologies />
+        <Projects />
+        {/* <Experience /> */}
+        <Contact />
       </div>
     </>
   );
