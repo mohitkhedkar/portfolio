@@ -39,8 +39,8 @@ function IntroSection() {
               src={profilePic}
               alt="Mohit Khedkar"
               className="border border-stone-900 rounded-3xl"
-              width={650}
-              height={650}
+              width={400}
+              height={400}
               initial={{ x: 100, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 1, delay: 1.5 }}
@@ -73,16 +73,29 @@ function IntroSection() {
             >
               {HERO_CONTENT}
             </motion.p>
-            <motion.a
-              variants={childVariants}
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              download
-              className="bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
-            >
-              Download Resume
-            </motion.a>
+            <div>
+              <motion.a
+                variants={childVariants}
+                href="/resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+                className="bg-green-500 rounded-full p-3.5 mx-3 text-sm text-white mb-10"
+              >
+                Download Resume
+              </motion.a>
+
+              <motion.a
+                variants={childVariants}
+                href="mailto:mohitkhedkar521@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                download
+                className="bg-white rounded-full py-3.5 px-6 mx-3 text-sm text-stone-800 mb-10"
+              >
+                Contact
+              </motion.a>
+            </div>
           </motion.div>
         </div>
       </div>

@@ -10,9 +10,9 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
+import { PiFileCppFill } from "react-icons/pi";
 import { TbBrandNextjs } from "react-icons/tb";
 import { motion } from "framer-motion";
-import { IoLogoJavascript } from "react-icons/io";
 
 const iconVariants = (duration) => ({
   intial: { y: -10 },
@@ -150,8 +150,21 @@ function Technologies() {
           <SiFirebase
             intial="intial"
             animate="animate"
-            variants={iconVariants(2.5)}
+            variants={iconVariants(3)}
             className="text-5xl text-orange-300"
+          />
+        </motion.div>
+        <motion.div
+          intial="intial"
+          animate="animate"
+          variants={iconVariants(4)}
+          className="p-4"
+        >
+          <PiFileCppFill
+            intial="intial"
+            animate="animate"
+            variants={iconVariants(2.5)}
+            className="text-5xl text-blue-500"
           />
         </motion.div>
       </motion.div>

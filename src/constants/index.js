@@ -1,7 +1,7 @@
 import project1 from "../assets/projects/project-1.webp";
-import project2 from "../assets/projects/project-2.webp";
-import project3 from "../assets/projects/project-3.webp";
-import project4 from "../assets/projects/project-4.webp";
+import project2 from "../assets/projects/gitAuto.png";
+import project3 from "../assets/projects/studentAttendance.png";
+import project4 from "../assets/projects/portfolio.png";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2+ years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB.`;
 
@@ -22,10 +22,13 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "React Projects",
-    image: project1,
-    description: "Bunch of projects using react framework.",
-    technologies: ["Javascript", "React", "Tailwind CSS"],
+    title: "Portfolio Website",
+    image: project4,
+    description:
+      "A personal portfolio website showcasing projects, skills, and contact information.",
+    technologies: ["React", "Tailwind CSS"],
+    codeLink: "https://github.com/mohitkhedkar/portfolio",
+    liveLink: "https://portfolio-mohitkhedkar.vercel.app/h",
   },
   {
     title: " Git Project Initialization Automation ",
@@ -33,6 +36,16 @@ export const PROJECTS = [
     description:
       "A command line interface (CLI) for automation of new project git initialization",
     technologies: ["Python", "Github", "Github API", "Git"],
+    codeLink: "https://github.com/mohitkhedkar/Git-Automation",
+    liveLink: "https://github.com/mohitkhedkar/Git-Automation",
+  },
+  {
+    title: "React Projects",
+    image: project1,
+    description: "Bunch of projects using react framework.",
+    technologies: ["Javascript", "React", "Tailwind CSS"],
+    codeLink: "https://react-mini-projects-one.vercel.app/",
+    liveLink: "https://github.com/mohitkhedkar/react-projects",
   },
   {
     title: "Student Attendance Management system ",
@@ -40,13 +53,10 @@ export const PROJECTS = [
     description:
       "This project aims to ease out the manual attendance taking process in Schools/Colleges.An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
     technologies: ["PHP", "CSS", "Javascript", "MySQL"],
-  },
-  {
-    title: "Portfolio Website",
-    image: project4,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind CSS"],
+    codeLink:
+      "https://github.com/mohitkhedkar/Student-Attendance-Management-System",
+    liveLink:
+      "https://github.com/mohitkhedkar/Student-Attendance-Management-System",
   },
 ];
 

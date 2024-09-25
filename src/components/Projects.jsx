@@ -45,6 +45,25 @@ function Projects() {
                   {tech}
                 </span>
               ))}
+
+              <motion.div className="mt-5">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={project.codeLink}
+                  className="bg-white rounded-full p-3 my-5 mx-2 text-sm text-stone-800 mb-10"
+                >
+                  Source Code
+                </a>
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={project.liveLink}
+                  className="bg-white rounded-full p-3 my-5 mx-2  text-sm text-stone-800 mb-10"
+                >
+                  Live Link
+                </a>
+              </motion.div>
             </motion.div>
           </div>
         ))}
