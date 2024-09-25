@@ -80,21 +80,21 @@ function IntroSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 download
-                className="bg-green-500 rounded-full p-3.5 mx-3 text-sm text-white mb-10"
+                className="bg-green-500 rounded-full p-3.5 mx-1 text-sm text-white mb-10"
               >
                 Download Resume
               </motion.a>
 
-              <motion.a
+              {/* <motion.a
                 variants={childVariants}
                 href="mailto:mohitkhedkar521@gmail.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
-                className="bg-white rounded-full py-3.5 px-6 mx-3 text-sm text-stone-800 mb-10"
+                className="bg-white rounded-full py-3.5 px-6 mx-1 text-sm text-stone-800 mb-10"
               >
                 Contact
-              </motion.a>
+              </motion.a> */}
             </div>
           </motion.div>
         </div>

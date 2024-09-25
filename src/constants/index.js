@@ -28,7 +28,7 @@ export const PROJECTS = [
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["React", "Tailwind CSS"],
     codeLink: "https://github.com/mohitkhedkar/portfolio",
-    liveLink: "https://portfolio-mohitkhedkar.vercel.app/h",
+    liveLink: "https://portfolio-mohitkhedkar.vercel.app/",
   },
   {
     title: " Git Project Initialization Automation ",
