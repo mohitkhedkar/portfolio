@@ -65,7 +65,7 @@ function IntroSection() {
               className="bg-gradient-to-r from-stone-300 to-stone-500 bg-clip-text text-3xl tracking-tight text-transparent"
             >
               {" "}
-              Frontend Developer
+              Data Analyst
             </motion.span>
             <motion.p
               variants={childVariants}
@@ -74,7 +74,7 @@ function IntroSection() {
               {HERO_CONTENT}
             </motion.p>
             <div>
-              <motion.a
+              {/* <motion.a
                 variants={childVariants}
                 href="/resume.pdf"
                 target="_blank"
@@ -83,7 +83,7 @@ function IntroSection() {
                 className="bg-green-500 rounded-full p-3.5 mx-1 text-sm text-white mb-10"
               >
                 Download Resume
-              </motion.a>
+              </motion.a> */}
 
               {/* <motion.a
                 variants={childVariants}

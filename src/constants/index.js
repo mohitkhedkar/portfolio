@@ -1,9 +1,9 @@
 import project1 from "../assets/projects/project-1.webp";
 import project2 from "../assets/projects/gitAuto.png";
 import project3 from "../assets/projects/studentAttendance.png";
-import project4 from "../assets/projects/portfolio.png";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2+ years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB.`;
+export const HERO_CONTENT = `
+I turn on-the-ground data into clear insights people can act on, from collecting and cleaning survey data to building reports and dashboards with Excel, SQL, Python & Power BI.`;
 
 // My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -21,15 +21,6 @@ export const EXPERIENCES = [
 ];
 
 export const PROJECTS = [
-  {
-    title: "Portfolio Website",
-    image: project4,
-    description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["React", "Tailwind CSS"],
-    codeLink: "https://github.com/mohitkhedkar/portfolio",
-    liveLink: "https://portfolio-mohitkhedkar.vercel.app/",
-  },
   {
     title: " Git Project Initialization Automation ",
     image: project2,

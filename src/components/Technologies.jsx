@@ -1,17 +1,12 @@
 import React from "react";
 import { BiLogoJavascript, BiLogoPostgresql } from "react-icons/bi";
-import { DiRedis } from "react-icons/di";
-import { FaNodeJs } from "react-icons/fa";
 import { RiReactjsLine } from "react-icons/ri";
 import {
-  SiExpress,
-  SiFirebase,
-  SiMongodb,
-  SiTailwindcss,
-  SiTypescript,
+  SiPython,
+  SiMicrosoftexcel,
+  SiPowerbi,
+  SiPostgresql,
 } from "react-icons/si";
-import { PiFileCppFill } from "react-icons/pi";
-import { TbBrandNextjs } from "react-icons/tb";
 import { motion } from "framer-motion";
 
 const iconVariants = (duration) => ({
@@ -44,63 +39,35 @@ function Technologies() {
         transition={{ duration: 1.5 }}
         className="flex flex-wrap items-center justify-center gap-4"
       >
+        {/* micorsoft Excel */}
         <motion.div
           intial="intial"
           animate="animate"
           variants={iconVariants(2.5)}
           className="p-4"
         >
-          <BiLogoJavascript className="text-5xl text-yellow-300" />
-        </motion.div>
-        <motion.div
-          intial="intial"
-          animate="animate"
-          variants={iconVariants(2.5)}
-          className="p-4"
-        >
-          <SiTypescript className="text-5xl text-blue-600" />
-        </motion.div>
-        <motion.div
-          intial="intial"
-          animate="animate"
-          variants={iconVariants(2.5)}
-          className="p-4"
-        >
-          <RiReactjsLine className="text-5xl text-cyan-400" />
-        </motion.div>
-        <motion.div
-          intial="intial"
-          animate="animate"
-          variants={iconVariants(3)}
-          className="p-4"
-        >
-          <TbBrandNextjs className="text-5xl" />
-        </motion.div>
-        <motion.div
-          intial="intial"
-          animate="animate"
-          variants={iconVariants(5)}
-          className="p-4"
-        >
-          <SiMongodb className="text-5xl text-cyan-500" />
+          <SiMicrosoftexcel className="text-5xl text-green-600" />
         </motion.div>
 
+        {/* Powerbi */}
         <motion.div
           intial="intial"
           animate="animate"
           variants={iconVariants(2.5)}
           className="p-4"
         >
-          <DiRedis className="text-5xl text-red-700" />
+          <SiPowerbi className="text-5xl text-yellow-600" />
         </motion.div>
+        {/* Pyhton */}
         <motion.div
           intial="intial"
           animate="animate"
-          variants={iconVariants(6)}
+          variants={iconVariants(2.5)}
           className="p-4"
         >
-          <FaNodeJs className="text-5xl text-green-500" />
+          <SiPython className="text-5xl text-blue-600" />
         </motion.div>
+        {/* postgressql */}
         <motion.div
           intial="intial"
           animate="animate"
@@ -114,58 +81,14 @@ function Technologies() {
             className="text-5xl text-sky-400"
           />
         </motion.div>
-
+        {/* React */}
         <motion.div
           intial="intial"
           animate="animate"
-          variants={iconVariants(4)}
+          variants={iconVariants(2.5)}
           className="p-4"
         >
-          <SiExpress
-            intial="intial"
-            animate="animate"
-            variants={iconVariants(2.5)}
-            className="text-5xl text-stone-300"
-          />
-        </motion.div>
-        <motion.div
-          intial="intial"
-          animate="animate"
-          variants={iconVariants(4)}
-          className="p-4"
-        >
-          <SiTailwindcss
-            intial="intial"
-            animate="animate"
-            variants={iconVariants(2.5)}
-            className="text-5xl text-sky-400"
-          />
-        </motion.div>
-        <motion.div
-          intial="intial"
-          animate="animate"
-          variants={iconVariants(4)}
-          className="p-4"
-        >
-          <SiFirebase
-            intial="intial"
-            animate="animate"
-            variants={iconVariants(3)}
-            className="text-5xl text-orange-300"
-          />
-        </motion.div>
-        <motion.div
-          intial="intial"
-          animate="animate"
-          variants={iconVariants(4)}
-          className="p-4"
-        >
-          <PiFileCppFill
-            intial="intial"
-            animate="animate"
-            variants={iconVariants(2.5)}
-            className="text-5xl text-blue-500"
-          />
+          <RiReactjsLine className="text-5xl text-cyan-400" />
         </motion.div>
       </motion.div>
     </div>
